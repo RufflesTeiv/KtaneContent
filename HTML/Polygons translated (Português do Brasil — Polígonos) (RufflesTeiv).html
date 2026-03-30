@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title>Polígonos — Módulo para Keep Talking and Nobody Explodes</title>
+    <link rel="stylesheet" type="text/css" href="css/font.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/ktane-utils.js"></script>
+    <style>
+        .polygon {
+            width: 1.75cm;
+            display: block;
+            margin: .1cm 0;
+        }
+
+        table {
+            break-inside: avoid;
+        }
+        .dark table svg {
+            filter: invert(80%);
+        }
+		.columns {
+			column-count: 2;
+		}
+
+		@media screen and (max-width: 720px) {
+			.columns {
+				column-count: 1;
+			}
+		}
+    </style>
+</head>
+<body>
+    <div class="section">
+        <div class="page page-bg-01">
+            <div class="page-header">
+                <span class="page-header-doc-title">Mod para Keep Talking and Nobody Explodes</span>
+                <span class="page-header-section-title">Polígonos</span>
+            </div>
+            <div class="page-content">
+                <img src="img/Component/Component.svg" class="diagram">
+                <h2>A Respeito dos Polígonos</h2>
+                <p class="flavour-text">As pessoas geralmente dizem que você não precisa de geometria na vida real. Essas pessoas agora estão em pedaços.</p>
+
+                <p class="appendix-reference" id="appendix-reference">Veja o <a href="Appendix BLANK.html">Apêndice EM BRANCO</a> para a identificação de módulos em branco.</p>
+
+                <p>Sinta o módulo para obter quatro formas. Determine se a condição de cada forma na tabela abaixo é verdadeira ou falsa. Toque na forma cujo valor de verdade é diferente do valor das outras três formas.</p>
+
+                <p><strong>Nota:</strong> as formas estão rotacionadas ao redor do centro do módulo. A forma na posição superior está na mesma orientação que as formas mostradas neste manual. A forma na direita estará rotacionada 90° para a direita, e assim vai.</p>
+
+                <div class='columns'>
+                    <table>
+                        <tr><td><svg class='polygon 5star' viewBox='-1.05 -1.05 2.1 2.1'><path d='M 7.3841858e-8,-0.90429683 -0.22460933,-0.21289061 h -0.7265625 L -0.36328121,0.21484377 -0.58789058,0.90429687 7.3841858e-8,0.47851567 0.58789067,0.90429687 0.36328127,0.21484377 0.95117187,-0.21289061 h -0.7265624 z' /></svg></td><td>O número de série contem uma vogal.</td></tr>
+                        <tr><td><svg class='polygon 6star' viewBox='-1.05 -1.05 2.1 2.1'><path d='M -9.7652616e-4,-1.0000001 -0.28808593,-0.49804704 -0.86621093,-0.50000004 -0.57519531,-1.6158142e-8 -0.86621093,0.49999998 -0.28808593,0.49804698 -9.7652616e-4,1.0000002 0.28613287,0.49804698 0.86621097,0.49999998 0.57519527,-1.6158142e-8 0.86621097,-0.50000004 l -0.5800781,0.001953 z' /></svg></td><td>O número de série não contém uma vogal.</td></tr>
+                        <tr><td><svg class='polygon diamond' viewBox='-1.05 -1.05 2.1 2.1'><path d='M 3.6341858e-8,-0.99999998 -0.99999999,2.3841858e-8 3.6341858e-8,1 1,2.3841858e-8 Z' /></svg></td><td>O último dígito do número de série é par.</td></tr>
+                        <tr><td><svg class='polygon hourglass' viewBox='-1.05 -1.05 2.1 2.1'><path d='M -0.79980465,-0.79980465 -0.1005859,-0.1005859 V 0.0986329 L -0.79980465,0.7998047 H 0.7998047 L 0.0986329,0.0986329 v -0.1992188 l 0.7011718,-0.69921875 z' /></svg></td><td>Existe uma entrada RJ-45 na bomba.</td></tr>
+                        <tr><td><svg class='polygon plus' viewBox='-1.05 -1.05 2.1 2.1'><path d='m -0.40039061,-0.99999998 v 0.59960935 h -0.59960938 v 0.80078125 h 0.59960938 V 1 H 0.40039064 V 0.40039062 H 1 V -0.40039063 H 0.40039064 v -0.59960935 z' /></svg></td><td>Existe um indicador escrito MSA na bomba.</td></tr>
+                        <tr><td><svg class='polygon righttriangle' viewBox='-1.05 -1.05 2.1 2.1'><path d='M -0.9003906,-0.9003906 V 0.90039065 H 0.90039065 Z' /></svg></td><td>O número de pilhas é par.</td></tr>
+                        <tr><td><svg class='polygon equitriangle' viewBox='-1.05 -1.05 2.1 2.1'><path d='m 0.86602543,0.75000002 h -1.73205081 l 0.866025402683716,-1.5' /></svg></td><td>Existe uma entrada paralela na bomba.</td></tr>
+                        <tr><td><svg class='polygon isotriangle' viewBox='-1.05 -1.05 2.1 2.1'><path d='M 3.3841858e-8,-0.9003906 -0.49999999,0.90039065 h 1.00000002 z' /></svg></td><td>Existe uma entrada Estéreo RCA na bomba.</td></tr>
+                    </table>
+                    <table>
+                        <tr><td><svg class='polygon uparrow' viewBox='-1.05 -1.05 2.1 2.1'><path d='M 2.7683716e-8,-0.7001953 -0.59960938,-0.0986328 h 0.30078125 V 0.70019535 H 0.30078122 V -0.0986328 h 0.2988282 z' /></svg></td><td>O número de indicadores é par.</td></tr>
+                        <tr><td><svg class='polygon rightarrow' viewBox='-1.05 -1.05 2.1 2.1'><path d='m 0.09863291,-0.59960938 v 0.30078125 h -0.79882818 v 0.59960935 h 0.79882818 v 0.2988282 L 0.70019531,2.3841858e-8 Z' /></svg></td><td>Existe um indicador escrito TRN na bomba.</td></tr>
+                        <tr><td><svg class='polygon downarrow' viewBox='-1.05 -1.05 2.1 2.1'><path d='M -0.29882813,-0.70019527 V 0.09863291 H -0.59960938 L 2.3841858e-8,0.70019531 0.59960942,0.09863291 h -0.2988282 v -0.79882818 z' /></svg></td><td>O último dígito do número de série é ímpar.</td></tr>
+                        <tr><td><svg class='polygon leftarrow' viewBox='-1.05 -1.05 2.1 2.1'><path d='M -0.20019528,-0.59960938 -0.79980465,2.3841858e-8 -0.20019528,0.59960942 V 0.30078122 H 0.7998047 v -0.59960935 h -0.99999998 z' /></svg></td><td>Existe uma entrada DVI na bomba.</td></tr>
+                        <tr><td><svg class='polygon uparrowhead' viewBox='-1.05 -1.05 2.1 2.1'><path d='M 4.7683716e-8,-0.29980468 -0.9003906,0.29980472 4.7683716e-8,0.10058594 0.90039065,0.29980472 Z' /></svg></td><td>O número de indicadores é ímpar.</td></tr>
+                        <tr><td><svg class='polygon rightarrowhead' viewBox='-1.05 -1.05 2.1 2.1'><path d='M -0.3007812,-0.9003906 -0.09960933,4.8841858e-8 -0.3007812,0.90039065 0.30078125,4.8841858e-8 Z' /></svg></td><td>Existe um indicador escrito BOB na bomba.</td></tr>
+                        <tr><td><svg class='polygon downarrowhead' viewBox='-1.05 -1.05 2.1 2.1'><path d='M -0.9003906,-0.3007812 4.8841858e-8,0.30078125 0.90039065,-0.3007812 4.8841858e-8,-0.09960933 Z' /></svg></td><td>Existe um indicador aceso que compartilha uma letra com o número de série da bomba.</td></tr>
+                        <tr><td><svg class='polygon leftarrowhead' viewBox='-1.05 -1.05 2.1 2.1'><path d='M 0.29980471,-0.9003906 -0.29980467,4.8841858e-8 0.29980471,0.90039065 0.10058591,4.8841858e-8 Z' /></svg></td><td>Eixste um indicador escrito SND na bomba.</td></tr>
+                    </table>
+                </div>
+            </div>
+            <div class="page-footer relative-footer">Página 1 de 2</div>
+        </div>
+        <div class="page page-bg-01">
+            <div class="page-header">
+                <span class="page-header-doc-title">Mod para Keep Talking and Nobody Explodes</span>
+                <span class="page-header-section-title">Polígonos</span>
+            </div>
+            <div class="page-content">
+                <div class='columns'>
+                    <table>
+                        <tr><td><svg class='polygon upcross' viewBox='-1.05 -1.05 2.1 2.1'><path d='m -0.09960938,-0.79980465 v 0.29882813 h -0.5 v 0.20117187 h 0.5 V 0.7998047 h 0.1992188 v -1.09960935 h 0.5 v -0.20117187 h -0.5 v -0.29882813 z' /></svg></td><td>Esta bomba foi inicializada em um fim de semana (Sábado ou Domingo).</td></tr>
+                        <tr><td><svg class='polygon rightcross' viewBox='-1.05 -1.05 2.1 2.1'><path d='m 0.2998047,-0.59960938 v 0.5 h -1.09960935 v 0.1992188 H 0.2998047 v 0.5 h 0.1992188 v -0.5 h 0.3007812 v -0.1992188 H 0.4990235 v -0.5 z' /></svg></td><td>Existe um indicador escrito FRK na bomba.</td></tr>
+                        <tr><td><svg class='polygon downcross' viewBox='-1.05 -1.05 2.1 2.1'><path d='M -0.09960938,-0.79980465 V 0.2998047 h -0.5 v 0.1992188 h 0.5 v 0.3007812 h 0.1992188 V 0.4990235 h 0.5 V 0.2998047 h -0.5 v -1.09960935 z' /></svg></td><td>Existe um indicador apagado que compartilha uma letra com o número de série da bomba.</td></tr>
+                        <tr><td><svg class='polygon leftcross' viewBox='-1.05 -1.05 2.1 2.1'><path d='m -0.50097652,-0.59960938 v 0.5 h -0.29882813 v 0.1992188 h 0.29882813 v 0.5 h 0.20117187 v -0.5 H 0.7998047 v -0.1992188 h -1.09960935 v -0.5 z' /></svg></td><td>Existe um indicador escrito CLR na bomba.</td></tr>
+                        <tr><td><svg class='polygon upkite' viewBox='-1.05 -1.05 2.1 2.1'><path d='m -9.7650232e-4,-0.8505859 -0.79882814768,0.5 L -9.7650232e-4,0.85058595 0.7998047,-0.3505859 Z' /></svg></td><td>Um módulo "Beco Sem Saída" (Blind Alley), "Código de Toque" (Tap Code), "Braille" ou "Um Engano" (A Mistake) está presente na bomba.</td></tr>
+                        <tr><td><svg class='polygon rightkite' viewBox='-1.05 -1.05 2.1 2.1'><path d='M 0.3496094,-0.79980465 -0.84960935,-9.7650116e-4 0.3496094,0.7998047 l 0.5,-0.80078120116 z' /></svg></td><td>Existe um indicador escrito NLL na bomba.</td></tr>
+                        <tr><td><svg class='polygon downkite' viewBox='-1.05 -1.05 2.1 2.1'><path d='M -9.7650116e-4,-0.84960935 -0.79980465,0.3496094 l 0.79882814884,0.5 0.80078120116,-0.5 z' /></svg></td><td>Existe uma placa de entrada vazia na bomba.</td></tr>
+                        <tr><td><svg class='polygon leftkite' viewBox='-1.05 -1.05 2.1 2.1'><path d='m -0.3505859,-0.79980465 -0.5,0.79882814884 0.5,0.80078120116 1.20117185,-0.80078120116 z' /></svg></td><td>Existe um indicador escrito CAR na bomba.</td></tr>
+                        <tr><td><svg class='polygon pentagon' viewBox='-1.05 -1.05 2.1 2.1'><path d='M -9.7650116e-4,-0.7236328 -0.76074215,-0.17089843 -0.47167965,0.72363285 H 0.4697266 l 0.2910156,-0.89453128 z' /></svg></td><td>Existe um indicador escrito NSA na bomba.</td></tr>
+                    </table>
+                    <table>
+                        <tr><td><svg class='polygon hexagon' viewBox='-1.05 -1.05 2.1 2.1'><path d='M -0.59960936,-0.99999998 -0.99999999,2.3841858e-8 -0.59960936,1 h 1.1992188 L 1,2.3841858e-8 0.59960944,-0.99999998 Z' /></svg></td><td>Existe uma entrada PS/2 na bomba.</td></tr>
+                        <tr><td><svg class='polygon octagon' viewBox='0.05 0.05 2.1 2.1'><path d='M 0.69921875 0.099609375 L 0.099609375 0.69921875 L 0.099609375 1.5 L 0.69921875 2.0996094 L 1.5 2.0996094 L 2.0996094 1.5 L 2.0996094 0.69921875 L 1.5 0.099609375 L 0.69921875 0.099609375 z ' /></svg></td><td>Existe um indicador escrito FRQ na bomba.</td></tr>
+                        <tr><td><svg class='polygon square' viewBox='-1.05 -1.05 2.1 2.1'><path d='M -0.99999999,-0.99999998 V 1 H 1 v -1.99999998 z' /></svg></td><td>O número de caixas de pilhas é par.</td></tr>
+                        <tr><td><svg class='polygon longrectangle' viewBox='0.05 0.05 2.1 2.1'><path d='M 0.099609375 0.5 L 0.099609375 1.6992188 L 2.0996094 1.6992188 L 2.0996094 0.5 L 0.099609375 0.5 z ' /></svg></td><td>Existe um indicador escrito IND na bomba.</td></tr>
+                        <tr><td><svg class='polygon tallrectangle' viewBox='-1.05 -1.05 2.1 2.1'><path d='M -0.59960938,-0.99999998 V 1 h 1.1992188 v -1.99999998 z' /></svg></td><td>O número de entradas é par.</td></tr>
+                        <tr><td><svg class='polygon halftrapezoid' viewBox='-1.05 -1.05 2.1 2.1'><path d='M -0.79980465,-0.79980465 V 0.7998047 H 0.2001953 0.7998047 l -0.5,-1.59960935 z' /></svg></td><td>Existe uma entrada serial na bomba.</td></tr>
+                        <tr><td><svg class='polygon shorttrapezoid' viewBox='-1.05 -1.05 2.1 2.1'><path d='M -0.40039061,-0.49999999 -0.99999999,0.50000003 H 1 L 0.40039064,-0.49999999 Z' /></svg></td><td>O número de pilhas é ímpar.</td></tr>
+                        <tr><td><svg class='polygon talltrapezoid' viewBox='-1.05 -1.05 2.1 2.1'><path d='M -0.49999998,-0.99999998 -0.99999999,1 H 1 L 0.50000004,-0.99999998 Z' /></svg></td><td>O número de entradas é ímpar.</td></tr>
+                        <tr><td><svg class='polygon parallelogram' viewBox='0.05 0.05 2.1 2.1'><path d='M 0.90039062 0.59960938 L 0.099609375 1.5996094 L 1.3007812 1.5996094 L 2.0996094 0.59960938 L 0.90039062 0.59960938 z ' /></svg></td><td>Existe um indicador escrito SIG na bomba.</td></tr>
+                        <tr><td><svg class='polygon t' viewBox='-1.05 -1.05 2.1 2.1'><path d='M -1,-1 V -0.5 h 0.70117188 V 1 H 0.30078124 V -0.5 H 1 v -0.49999998 z' /></svg></td><td>O número de caixas de pilhas é ímpar.</td></tr>
+                    </table>
+                </div>
+            </div>
+            <div class="page-footer relative-footer">Página 2 de 2</div>
+        </div>
+    </div>
+</body>
+</html>

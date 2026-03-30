@@ -11,6 +11,11 @@
       "Description": "Ressentir les formes pivotées et évaluer des conditions associées.",
       "Language": "Français",
       "Tags": "rien, vide, formes, 4-boutons, quatre-boutons, carré, triangle, croix"
+    },
+    {
+      "Description": "Sinta as formas rotacionadas e avalie condições relacionadas a elas.",
+      "Language": "Português do Brasil",
+      "Tags": "em-branco, formas, quatro-botões, quadrado, triângulo, cruz, desafio-do-manual"
     }
   ],
   "ExpertDifficulty": "Easy",
